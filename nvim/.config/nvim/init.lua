@@ -5,5 +5,5 @@ require("settings")
 require("remaps")
 
 -- Load lazy.nvim and the autocomplete/LSP plugins
-require("plugins")
+require("lazy-init")
 

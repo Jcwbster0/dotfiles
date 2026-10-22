@@ -18,6 +18,7 @@ vim.opt.incsearch = true
 
 -- Enable full 24-bit RGB true color rendering in terminal
 vim.opt.termguicolors = true
+vim.cmd("colorscheme desert")
 
 -- Keep at least 8 lines visible above/below cursor when scrolling
 vim.opt.scrolloff = 8
