@@ -1,5 +1,10 @@
 return {
 	{
+		"zapling/mason-conform.nvim",
+		dependencies = { "williamboman/mason.nvim", "stevearc/conform.nvim" },
+		opts = {},
+	},
+	{
 		"stevearc/conform.nvim",
 		event = { "BufWritePre" }, -- Triggers instantly right before saving a file
 		cmd = { "ConformInfo" },

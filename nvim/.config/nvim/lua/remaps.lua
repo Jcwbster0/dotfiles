@@ -16,3 +16,8 @@ vim.keymap.set("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" })
 
 -- Space + q quits the file
 vim.keymap.set("n", "<leader>q", "<cmd>q<CR>", { desc = "Quit file" })
+
+-- Add this somewhere in your lsp.lua setup / initialization
+vim.keymap.set("n", "gl", vim.diagnostic.open_float, { desc = "Show line diagnostics" })
+vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Go to previous diagnostic" })
+vim.keymap.set("n", "]d", vim.diagnostic.goto_next, { desc = "Go to next diagnostic" })
