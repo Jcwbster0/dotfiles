@@ -16,4 +16,3 @@ vim.keymap.set("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" })
 
 -- Space + q quits the file
 vim.keymap.set("n", "<leader>q", "<cmd>q<CR>", { desc = "Quit file" })
-

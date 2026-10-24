@@ -15,7 +15,7 @@ return {
 
 				-- Automatically format when you save the file
 				format_on_save = {
-					timeout_ms = 500, -- Don't hang the editor if a formatter takes too long
+					timeout_ms = 2000, -- Don't hang the editor if a formatter takes too long
 					lsp_format = "fallback", -- Fall back to standard LSP if no dedicated formatter exists
 				},
 			})

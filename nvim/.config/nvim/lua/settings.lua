@@ -1,3 +1,6 @@
+--keep block cursor when changing modes
+vim.opt.guicursor = ""
+
 -- Enable hybrid relative line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -22,4 +25,3 @@ vim.cmd("colorscheme desert")
 
 -- Keep at least 8 lines visible above/below cursor when scrolling
 vim.opt.scrolloff = 8
-
