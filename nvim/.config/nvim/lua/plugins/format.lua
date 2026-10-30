@@ -17,7 +17,6 @@ return {
 					c = { "clang-format" },
 					cpp = { "clang-format" },
 				},
-
 				-- Automatically format when you save the file
 				format_on_save = {
 					timeout_ms = 2000, -- Don't hang the editor if a formatter takes too long

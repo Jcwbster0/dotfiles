@@ -1,0 +1,27 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+
+# --- Function Line Breaking Fixes ---
+# Forces 'void' and return types to stay on the same line as the function name
+BreakAfterReturnType: None
+# Tells the engine to try hard to avoid splitting return types onto their own line
+PenaltyReturnTypeOnItsOwnLine: 1000
+
+# --- General Layout Preferences ---
+# Comfortable line length before code wraps automatically
+ColumnLimit: 100
+# Standard indent size (Change to 2 if your school prefers Google/LLVM compact styles)
+IndentWidth: 4
+# Formats pointer symbols cleanly on the left (e.g., int* pic instead of int *pic)
+PointerAlignment: Left
+
+# --- Braces & Spacing ---
+# Keeps opening braces attached to the statement line (e.g., if (condition) { )
+BreakBeforeBraces: Attach
+# Automatically cleans up empty or extra lines to keep code compact
+MaxEmptyLinesToKeep: 1
+# Sorts your #include lines alphabetically automatically
+SortIncludes: true
+---
+
