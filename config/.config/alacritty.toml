@@ -7,4 +7,6 @@ style = "Regular"
 
 [window]
 option_as_alt = "Both"
+opacity = 0.8
+
 
