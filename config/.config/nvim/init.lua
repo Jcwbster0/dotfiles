@@ -9,6 +9,8 @@ vim.pack.add({
 })
 
 vim.cmd.colorscheme("tokyonight")
+--Enable transparnecy 
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 require("lualine").setup()
 
 --Autocomplete plugins
